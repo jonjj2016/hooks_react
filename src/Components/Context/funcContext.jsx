@@ -15,9 +15,14 @@ const FuncContext = () => {
           width: '500px',
           backgroundColor: dark ? 'gray' : 'white',
           color: dark ? 'white' : 'gray',
+          display: 'flex',
+          alignContent: 'center',
+          justifyContent: 'center',
+          alignItems: 'center',
+          fontSize: '2em',
         }}
       >
-        FuncContext
+        Func Context
       </div>
     </>
   )
